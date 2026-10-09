@@ -1,21 +1,19 @@
 # Candidate gene expression analysis
 #
-# Supports Figure 6C-F.
+# Supports:
+#   Figure 6C-F
 #
-# Candidate-gene expression was evaluated in hepatocytes, endothelial cells,
-# macrophages, and hepatic stellate cells (HSCs).
+# Candidate genes were evaluated in hepatocytes, endothelial cells,
+# macrophages, and HSCs.
 #
-# Log-normalized RNA expression was summarized per mouse from the annotated
-# Seurat object. During the original analysis, these per-mouse values were
-# normalized to the mean of the FAT-MASH mice for each gene outside the scripted
-# workflow (e.g., by copying console output into Excel). The exact normalized
-# values used for downstream statistics and plotting are retained explicitly
-# below rather than reconstructing an undocumented normalization step.
+# Per-mouse log-normalized expression values were normalized to the FAT-MASH
+# mean for each gene during the original analysis. The normalized values used
+# for statistics and plotting are retained explicitly below.
 #
-# Statistical comparisons between models used two-sided Welch t-tests.
-# Final plotted values are mean +/- SEM across mice.
+# Model comparisons used two-sided Welch t-tests.
+# Plots show mean +/- SEM across mice.
 #
-# Minor final figure assembly/annotation was performed outside R.
+# Final figure annotations were added outside R.
 
 library(Seurat)
 library(Matrix)
