@@ -8,3 +8,5 @@ The matrix contains:
 - one VST-normalized expression column per mouse
 
 This matrix was generated during the original analysis and was used as the input for Hoshida subtype scoring in `scripts/04_tumor_programs_hoshida.R`.
+
+Scripts in this repository use paths relative to the repository root unless otherwise noted.
