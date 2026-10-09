@@ -1,29 +1,18 @@
 # CellChat intercellular communication analysis
 #
-# Supports Figure 7:
-#   A - outgoing and incoming inferred interaction strength
-#   B - FAT-MASH inferred communication network
-#   C - HOT-MASH inferred communication network
+# Supports:
+#   Figure 7A-C
 #
-# CellChat was run separately for:
-#   FAT-MASH (CCl4_model) vs chow
-#   HOT-MASH (DEN_model) vs chow
+# CellChat was run separately for FAT-MASH vs chow and HOT-MASH vs chow
+# using log-normalized RNA expression and CellChatDB.mouse.
 #
-# Log-normalized RNA expression was used as input.
-# CellChatDB.mouse was used with:
-#   computeCommunProb(type = "truncatedMean", trim = 0.1)
-#   filterCommunication(min.cells = 10)
+# Communication probabilities were calculated using a truncated mean
+# (trim = 0.1), with interactions requiring at least 10 cells.
 #
-# Pathway-level communication probabilities were calculated with
-# computeCommunProbPathway(), networks were aggregated with aggregateNet(),
-# and signaling-role centrality was calculated with
-# netAnalysis_computeCentrality(slot.name = "netP").
+# Outgoing and incoming signaling-role values used for Figure 7A were copied
+# from the original CellChat output and are retained explicitly below.
 #
-# During the original workflow, the outgoing/incoming values returned by
-# get_signaling_role_df() were copied into the final Figure 7A plotting script.
-# Those exact values are retained below.
-#
-# Final figure assembly and minor formatting were performed outside R.
+# Final figure formatting was completed outside R.
 
 library(Seurat)
 library(CellChat)
