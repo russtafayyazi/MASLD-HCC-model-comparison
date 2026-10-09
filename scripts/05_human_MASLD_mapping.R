@@ -1,21 +1,14 @@
 # Cross-species projection of mouse hepatic lineages onto a human MASLD reference
-# Supports Figure 4A.
+# Supports Figure 4A using GSE202379.
 #
-# Human reference:
-#   GSE202379
-#
-# Mouse lineages:
-#   Hepatocytes
-#   Endothelial cells
-#   Macrophages
-#   Hepatic stellate cells (HSCs)
+# Hepatocytes, endothelial cells, macrophages, and HSCs were projected
+# separately onto the human reference.
 #
 # Internal condition nomenclature retained from the original analysis:
 #   CCl4_model = FAT-MASH
 #   DEN_model  = HOT-MASH
 #
-# File paths reflect the original analysis environment and should be adapted
-# as needed.
+# File paths reflect the original analysis environment and may need to be updated.
 
 library(Seurat)
 library(SeuratObject)
