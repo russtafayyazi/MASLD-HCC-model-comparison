@@ -1,5 +1,6 @@
 # Cross-species projection of mouse hepatic lineages onto a human MASLD reference
-# Supports Figure 4A using GSE202379.
+# Supports:
+#   Figure 4A (using GSE202379)
 #
 # Hepatocytes, endothelial cells, macrophages, and HSCs were projected
 # separately onto the human reference.
