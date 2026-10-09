@@ -1,5 +1,6 @@
 # Hoshida HCC subtype scoring in tumor-enriched hepatocytes
-# Supports Figure 3B-D.
+# Supports:
+#   Figure 3B-D
 #
 # Two complementary analyses are performed:
 #   1. Pseudobulk singscore using VST-normalized tumor-cell expression
