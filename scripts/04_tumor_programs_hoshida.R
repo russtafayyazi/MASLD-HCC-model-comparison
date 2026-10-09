@@ -12,12 +12,8 @@
 #   DEN_model  = HOT-MASH
 #   RT_chow    = chow control
 #
-# The pseudobulk input matrix was generated during the original analysis
-# and retained as:
+# Pseudobulk input:
 #   tumorCells.VSTnorm.humanOrths.txt
-#
-# Its columns contain the original mouse gene symbol, mapped human ortholog
-# symbol, and VST-normalized pseudobulk expression for the six model mice.
 
 library(Seurat)
 library(dplyr)
