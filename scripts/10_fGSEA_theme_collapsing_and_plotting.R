@@ -9,20 +9,15 @@
 #   08_model_vs_control_pseudobulk_DE_fGSEA.R
 #   09_model_vs_model_pseudobulk_DE_fGSEA.R
 #
-# Significant Hallmark and Reactome pathways were grouped into
-# MASLD/MASLD-HCC-relevant biological themes using keyword matching.
-#
-# In the original analysis, the keyword annotation was used to aid biological
-# interpretation, followed by manual review of the significant pathways within
-# each theme. The final theme-level NES values and direction labels used for
-# plotting are retained explicitly below rather than reconstructed using a new
-# averaging or automated collapsing rule.
+# Significant Hallmark and Reactome pathways were grouped into broader
+# biological themes using keyword matching, followed by manual review.
+# The final theme-level NES values and direction labels used for plotting
+# are retained explicitly below.
 #
 # Figures 5B-C and 6B were generated separately in Cytoscape using
 # EnrichmentMap from the significant Hallmark fGSEA results.
 #
-# Final manuscript panels underwent minor manual figure assembly/formatting
-# outside R. The plots below reflect the R-generated plots used as their basis.
+# Final manuscript panels included minor manual formatting outside R.
 
 library(dplyr)
 library(tidyr)
