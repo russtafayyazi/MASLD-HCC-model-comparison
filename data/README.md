@@ -1,6 +1,6 @@
 # Data
 
-## `tumorCells.VSTnorm.humanOrths.txt`
+ `tumorCells.VSTnorm.humanOrths.txt`
 
 VST-normalized pseudobulk expression matrix for tumor-enriched hepatocytes from the six FAT-MASH and HOT-MASH mice used in the tumor analyses.
 
