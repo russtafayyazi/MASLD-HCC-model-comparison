@@ -1,5 +1,6 @@
 # Human MASLD-HCC tumor-signature derivation and scoring
-# Supports Figure 4B-D using GSE164760.
+# Supports:
+#   Figure 4B-D (using GSE164760)
 #
 # The human signature was derived from HCC tumors compared with a composite
 # non-tumor background of adjacent liver, cirrhotic liver, and NASH liver.
