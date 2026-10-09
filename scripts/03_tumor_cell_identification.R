@@ -1,5 +1,6 @@
 # Tumor-cell identification using an HCC-associated gene signature
-# Primarily supports Figure 2E-G.
+# Supports:
+#   Figure 2E-G
 #
 # Internal condition nomenclature retained from the original analysis:
 #   CCl4_model = FAT-MASH
