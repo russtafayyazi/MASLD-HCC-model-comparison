@@ -1,29 +1,19 @@
 # Human MASLD-HCC tumor-signature derivation and scoring
-# Supports Figure 4B-D.
+# Supports Figure 4B-D using GSE164760.
 #
-# Human source dataset:
-#   GSE164760
+# The human signature was derived from HCC tumors compared with a composite
+# non-tumor background of adjacent liver, cirrhotic liver, and NASH liver.
+# Genes were retained at adjusted P < 0.05 and log2 fold change > 1.
 #
-# Final signature definition:
-#   HCC tumor vs a composite non-tumor background consisting of:
-#     - adjacent non-tumor liver
-#     - cirrhotic liver
-#     - NASH liver
-#
-# Genes were retained if:
-#   adjusted P < 0.05
-#   log2 fold change > 1
-#
-# The resulting human signature was scored:
-#   1. in mouse tumor-cell pseudobulk profiles using singscore
-#   2. in individual mouse tumor cells using UCell
+# The resulting signature was scored in mouse tumor-cell pseudobulk profiles
+# using singscore and in individual tumor cells using UCell.
 #
 # Internal condition nomenclature retained from the original analysis:
 #   CCl4_model = FAT-MASH
 #   DEN_model  = HOT-MASH
 #   RT_chow    = chow control
 #
-# File paths for public GEO data should be adapted as needed.
+# Paths to public GEO data may need to be updated.
 
 library(hgu219.db)
 library(AnnotationDbi)
