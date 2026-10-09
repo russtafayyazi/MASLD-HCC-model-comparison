@@ -1,5 +1,6 @@
 # scRNA-seq preprocessing, QC, integration, clustering, and primary annotation
-# Primarily supports Figure 2 and provides the integrated object used downstream.
+# Supports:
+#   Figure 2
 #
 # Internal sample nomenclature retained from the original analysis:
 #   CCl4_model = FAT-MASH
